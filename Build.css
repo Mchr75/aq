@@ -1,0 +1,107 @@
+.body{
+  background-color: #FFFFFF;
+}
+.logo .brand-name{
+  width: 111px;
+  height: 35px;
+  top: 22px;
+  font-style: italic;
+  background-color: #2947A9;
+  size: 30px;
+}
+
+.navbar {
+  display: flex;
+  padding: 20px 60px;
+  background-color: white;
+  position: fixed;
+  width: 1440px;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+.nav-links{
+  display: flex;
+  gap: 20px;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 30px;
+  margin-left: 751px;
+  gap: 50px;
+  display: flex;
+
+}
+.nav-links a:hover{
+  color: #2b5bff;
+}
+
+.contact-link {
+  color: #F9995D;
+}
+
+.hero{
+  width: 1440px;
+  height: 646px;
+  top: 80px;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0.9),rgba(255,255,255, 0) ,url("Pic\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 80px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.feature-project {
+  background-color: #2B5BFF;
+  color: white;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.feature-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.back-button, .next-button {
+  width: 208px;
+  height: 40px;
+  background-color: #292E3D;
+  color: white;
+  border: none;
+  padding: 4px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.back-button {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
